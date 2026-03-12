@@ -1,6 +1,6 @@
 Can I post this in ADJ?
 
-START HERE, PALS!
+(an online guide)
 
 -> paying_job
 
@@ -29,7 +29,7 @@ Q: Is it digital/tech?
 Q: Is it freelance?
     *Yes, it's freelance
     -> lani_says_no
-    *No, it's not freelanc
+    *No, it's not freelance
     e -> lani_says_yes
 
 === event ===
