@@ -1,36 +1,18 @@
-# Adj -- An Ink Story
+# Adj — An Ink Story
+
+An interactive fiction written in Ink.
+
+For build, test, and publish workflows, see `C:\code\ifhub\reference\project-guide.md`.
 
 ## Project Structure
 
 ```
 C:\code\ifhub\projects\adj\
-├── CLAUDE.md              <- You are here
-├── adj.ink          <- Source of truth (Ink source)
-├── adj.json    <- Compiled story (JSON)
+├── CLAUDE.md
+├── adj.ink                <- Source of truth (Ink source)
+├── adj.json               <- Compiled story (JSON)
 ├── play.html              <- Browser-playable game (ink.js player)
-├── .github/workflows/     <- GitHub Actions workflow for Pages deployment
+├── .github/workflows/
 └── tests/
-    └── project.conf       <- Project configuration
+    └── project.conf
 ```
-
-## Build & Deploy
-
-```bash
-# Compile + set up web player
-python /c/code/ifhub/tools/pipeline.py adj
-
-# Publish to GitHub Pages
-python /c/code/ifhub/tools/publish.py adj
-```
-
-## Play Locally
-
-```bash
-python -m http.server 8000
-# Then open http://localhost:8000/play.html
-```
-
-## Key Rules
-
-- `adj.ink` is the single source of truth
-- For hub documentation, see `C:\code\ifhub\CLAUDE.md`
