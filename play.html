@@ -124,5 +124,27 @@ function continueStory() {
 
 continueStory();
 </script>
+
+<script src="theme-listener.js"></script>
+<script>
+ThemeListener.init({
+  buildCSS: function(g, sb) {
+    return 'body { background: ' + g.bodyBg + ' !important; color: ' + g.bufferFg + ' !important; font-family: ' + g.propFamily + ' !important; }\n' +
+      'h1 { color: ' + g.headerFg + ' !important; border-bottom-color: ' + g.gridBg + ' !important; }\n' +
+      '#story p { color: ' + g.bufferFg + ' !important; }\n' +
+      '.choice-echo { color: ' + g.gridFg + ' !important; }\n' +
+      '#choices { border-top-color: ' + g.gridBg + ' !important; }\n' +
+      '.choice { color: ' + g.inputFg + ' !important; font-family: ' + g.propFamily + ' !important; }\n' +
+      '.choice:hover { color: ' + g.headerFg + ' !important; }\n' +
+      '#end { color: ' + g.emphFg + ' !important; }\n' +
+      '* { scrollbar-color: ' + sb.thumb + ' ' + sb.track + '; }\n' +
+      '::-webkit-scrollbar { width: 10px; background: ' + sb.track + '; }\n' +
+      '::-webkit-scrollbar-thumb { background: ' + sb.thumb + '; border-radius: 4px; }\n' +
+      '::-webkit-scrollbar-thumb:hover { background: ' + sb.thumbHover + '; }\n';
+  },
+  dispatchResize: false
+});
+</script>
+
 </body>
 </html>
