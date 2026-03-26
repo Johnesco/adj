@@ -20,7 +20,7 @@ Q: Is it in Austin?
 
 === digital_tech ===
 Q: Is it digital/tech?
-    *Yes, it is digital or techinical.
+    *Yes, it is digital or technical.
     -> freelance
     *No, it is not digital or technical
     -> lani_says_no
@@ -76,7 +76,7 @@ Q: Do you need anonymity?
     
 === quote ===
 Q: Is it an inspirational quote?
-    *Yes, it's an inspriational quote.
+    *Yes, it's an inspirational quote.
     -> tumblr
     *No, it's not an inspirational quote.
     -> recommend_opinions
@@ -85,7 +85,7 @@ Q: Is it an inspirational quote?
 Q: Are you seeking recommendations (or anything like courses or CPAs)? Are you offering an opinion on any employer or practice? 
     * Yes, I want to post recommendations or about employers. 
     -> lani_says_no
-    * No, I'm not asking for recommendations nor posting opininos on employers nor practices. 
+    * No, I'm not asking for recommendations nor posting opinions on employers nor practices. 
     -> pitch
     
 === pitch ===
@@ -96,7 +96,7 @@ Q: Do you want to pitch yourself as a job seeker?
     -> wardrobe_advice
     
 === intro_post === 
-Great! Do so as a comment in the "INTRO POST" in the "Announcments" section.
+Great! Do so as a comment in the "INTRO POST" in the "Announcements" section.
 -> END
 
 === wardrobe_advice ===
